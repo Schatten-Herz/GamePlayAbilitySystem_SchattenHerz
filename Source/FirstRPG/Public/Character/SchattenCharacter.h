@@ -13,5 +13,8 @@ UCLASS()
 class FIRSTRPG_API ASchattenCharacter : public ASchattenCharacterBase
 {
 	GENERATED_BODY()
+
+public:
+	ASchattenCharacter();
 	
 };
