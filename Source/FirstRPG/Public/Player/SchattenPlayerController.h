@@ -1,8 +1,9 @@
-// Coprright SchattenHerz
+// Copyright SchattenHerz
 
 #pragma once
 
 #include "CoreMinimal.h"
+//#include "AbilitySystemInterface.h"
 #include "GameFramework/PlayerController.h"
 #include "SchattenPlayerController.generated.h"
 

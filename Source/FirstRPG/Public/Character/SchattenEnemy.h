@@ -16,7 +16,13 @@ class FIRSTRPG_API ASchattenEnemy : public ASchattenCharacterBase,public IEnemyI
 	GENERATED_BODY()
 public:
 	ASchattenEnemy();
+
+	/** enemy 接口*/
 	virtual void HighLightActor() override;
 	virtual void UnHighLightActor() override;
+	/** enemy 接口*/
+
+protected:
+	virtual void BeginPlay() override;
 
 };

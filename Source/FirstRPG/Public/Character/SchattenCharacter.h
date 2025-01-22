@@ -16,5 +16,9 @@ class FIRSTRPG_API ASchattenCharacter : public ASchattenCharacterBase
 
 public:
 	ASchattenCharacter();
-	
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void OnRep_PlayerState() override;
+
+private:
+	void InitAbilityActorInfo();
 };
